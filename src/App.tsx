@@ -1,7 +1,11 @@
-import Teste from './Teste'
+import Sidebar from './containers/Sidebar'
 
 function App() {
-  return <Teste />
+  return (
+    <>
+      <Sidebar></Sidebar>
+    </>
+  )
 }
 
 export default App

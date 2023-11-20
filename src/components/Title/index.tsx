@@ -1,5 +1,7 @@
 type Props = {
-  valor: string
+  children: string
 }
 
-const Titulo = (props: Props) => <span>{props.valor}</span>
+const Titulo = (props: Props) => <span>{props.children}</span>
+
+export default Titulo

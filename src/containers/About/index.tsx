@@ -2,7 +2,7 @@ import Title from '../../components/Title'
 
 const About = () => (
   <section>
-    <Title>Sobre</Title>
+    <Title>Sobre mim</Title>
     <p>
       Desenvolvedor Full Stack, pós-graduado em Análise e Desenvolvimento de
       Programas, com formação pela Le Wagon em Desenvolvimento Web e graduando

@@ -1,5 +1,6 @@
 import Title from './components/Title'
 import About from './containers/About'
+import Projects from './containers/Projects'
 import Sidebar from './containers/Sidebar'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Title>Claudio Ferreira</Title>
       <main>
         <About></About>
-        <section>projetos</section>
+        <Projects></Projects>
       </main>
     </>
   )

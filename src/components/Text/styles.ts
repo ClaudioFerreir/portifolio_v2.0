@@ -4,4 +4,6 @@ import { Props } from '.'
 
 export const Text = styled.p<Props>`
   font-size: 14px;
+  color: ${(props) => (props.tipo === 'primary' ? '#282a35' : '#949494')};
+  line-height: 22px;
 `

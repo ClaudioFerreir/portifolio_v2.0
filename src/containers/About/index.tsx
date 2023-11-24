@@ -4,7 +4,7 @@ import Text from '../../components/Text'
 const About = () => (
   <section>
     <Title fontSize={16}>Sobre mim</Title>
-    <Text>
+    <Text tipo="primary">
       Desenvolvedor Full Stack, pós-graduado em Análise e Desenvolvimento de
       Programas, com formação pela Le Wagon em Desenvolvimento Web e graduando
       em Ciência da Computação pelo Centro Universitário União das Américas

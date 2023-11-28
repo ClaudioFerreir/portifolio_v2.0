@@ -11,7 +11,7 @@ function App() {
         <Sidebar />
         <main>
           <About />
-          <Projects />+
+          <Projects />
         </main>
       </Container>
     </>

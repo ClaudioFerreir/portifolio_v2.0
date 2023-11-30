@@ -2,6 +2,8 @@ import Avatar from '../../components/Avatar'
 import Title from '../../components/Title'
 import Text from '../../components/Text'
 
+import { Description } from './styles'
+
 const Sidebar = () => (
   <aside>
     <Avatar />
@@ -9,6 +11,10 @@ const Sidebar = () => (
     <Text tipo="secondary" fontSize={16}>
       Cláudio Ferreira
     </Text>
+    <Description tipo="primary" fontSize={12}>
+      Engenheiro Full-Stack
+    </Description>
+    <button>Trocar tema</button>
   </aside>
 )
 

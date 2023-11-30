@@ -2,7 +2,7 @@ import Avatar from '../../components/Avatar'
 import Title from '../../components/Title'
 import Text from '../../components/Text'
 
-import { Description } from './styles'
+import { Description, ModeButton } from './styles'
 
 const Sidebar = () => (
   <aside>
@@ -14,7 +14,7 @@ const Sidebar = () => (
     <Description tipo="primary" fontSize={12}>
       Engenheiro Full-Stack
     </Description>
-    <button>Trocar tema</button>
+    <ModeButton>Trocar tema</ModeButton>
   </aside>
 )
 

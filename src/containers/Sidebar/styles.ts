@@ -14,3 +14,9 @@ export const ModeButton = styled.button`
   background-color: #282a35;
   cursor: pointer;
 `
+
+export const SidebarContainer = styled.div`
+  position: sticky;
+  top: 80px;
+  left: 0;
+`

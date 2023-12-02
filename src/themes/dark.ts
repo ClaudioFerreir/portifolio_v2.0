@@ -1,8 +1,8 @@
 const DarkTheme = {
   PrimaryColor: '#fff',
-  SecondaryColor: '#949494',
+  SecondaryColor: '#eee',
   BackgroundColor: '#282a35',
-  ButtonBackgroundColor: '#4476bf',
+  ButtonBackgroundColor: '#fff',
   BorderColor: '#c1c1c1'
 }
 

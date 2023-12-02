@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 
 import About from './containers/About'
@@ -8,11 +9,17 @@ import LightTheme from './themes/light'
 import DarkTheme from './themes/dark'
 
 function App() {
+  const [DarkThemeOn, setDarkThemeOn] = useState(false)
+
+  function switchTheme() {
+    setDarkThemeOn(!DarkThemeOn)
+  }
+
   return (
-    <ThemeProvider theme={DarkTheme}>
+    <ThemeProvider theme={DarkThemeOn ? DarkTheme : LightTheme}>
       <EstiloGlobal />
       <Container>
-        <Sidebar />
+        <Sidebar switchTheme={switchTheme} />
         <main>
           <About />
           <Projects />

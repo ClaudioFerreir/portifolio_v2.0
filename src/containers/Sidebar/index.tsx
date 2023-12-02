@@ -4,7 +4,11 @@ import Text from '../../components/Text'
 
 import { Description, ModeButton, SidebarContainer } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  switchTheme: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -15,7 +19,7 @@ const Sidebar = () => (
       <Description tipo="primary" fontSize={12}>
         Engenheiro Full-Stack
       </Description>
-      <ModeButton>Trocar tema</ModeButton>
+      <ModeButton onClick={props.switchTheme}>Trocar tema</ModeButton>
     </SidebarContainer>
   </aside>
 )

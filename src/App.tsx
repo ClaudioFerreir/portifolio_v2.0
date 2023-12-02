@@ -5,10 +5,11 @@ import Projects from './containers/Projects'
 import Sidebar from './containers/Sidebar'
 import EstiloGlobal, { Container } from './styles'
 import LightTheme from './themes/light'
+import DarkTheme from './themes/dark'
 
 function App() {
   return (
-    <ThemeProvider theme={LightTheme}>
+    <ThemeProvider theme={DarkTheme}>
       <EstiloGlobal />
       <Container>
         <Sidebar />
